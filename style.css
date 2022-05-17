@@ -1,0 +1,231 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: cornsilk;
+    color: black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    color: crimson;
+}
+header{
+   width: 100%;
+   height: 100px;
+   background-color: pink;
+   color: black ;
+   padding: 20px;
+   position: fixed;
+   font-family: Algerian;
+}
+.space{
+    width: 100%;
+    height: 100px;
+}
+.space1{
+    width: 100%;
+    height: 200px;
+}
+header h1,h3{
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    color: black;
+    padding:20px 20px;
+    position: fixed;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    display: none;
+}
+nav ul li{
+    display: inline;
+    margin: 50px;
+}
+.hamburger{
+    width: 10%;
+    margin-left: 80%;
+}
+.hamburger div{
+    width: 50%;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
+.hamburger div:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+   
+  
+}
+.container div{
+    width: 25%;
+    height: 250px;
+    background-color: white;
+   
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.container div:hover{
+    cursor: pointer;
+    transition: all 1s ease-in;
+    transform: scale(1.2);
+}
+.container2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.container2 img{
+    margin: 20px;
+}
+
+.first{
+    line-height: 1.5;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.two h2{
+    text-align: center;
+}
+.two{
+    padding: 20px;
+}
+.two ul{
+    margin-left: 10px;
+}
+.two li:nth-of-type(even){
+    color:brown;
+}
+.two li:nth-of-type(odd){
+    color:purple;
+}
+.slider{
+    
+    width: 50%;
+    height: 400px;
+
+    margin:40px auto;
+    animation-name: afunwa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes afunwa{
+    0%{
+        background-image:url("../images/fashion11.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    10%{
+        background-image:url("../images/fashion21.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;  
+    }
+    20%{
+        background-image:url("../images/fashion46.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;  
+    }
+    30%{
+        background-image:url("../images/fashion51.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    40%{
+        background-image:url("../images/fashion60.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    50%{
+        background-image:url("../images/fashion59.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    60%{
+        background-image:url("../images/fashion53.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    70%{
+        background-image:url("../images/fashion32.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    80%{
+        background-image:url("../images/fashion36.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    90%{
+        background-image:url("../images/fashion28.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    100%{
+        background-image:url("../images/fashion1.JPG");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.three{
+    padding: 30px;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.wrapper div{
+    width: 25%;
+    height: 400px;
+    font-family: sans-serif;
+}
+.wrapper h2{
+    text-align: center;
+}
+figure{
+    margin-top: 15px;
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
